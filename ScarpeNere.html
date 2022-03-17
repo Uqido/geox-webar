@@ -45,15 +45,15 @@
 </head>
 <body class="fullscreen-100">
 <model-viewer id="modelViewer"
-              class='model-viewer' ar autoplay camera-controls src='https://uqido.github.io/geox-webar/models/ScarpeNere.glb'
+              class='model-viewer' ar autoplay camera-controls disable-zoom src='https://uqido.github.io/geox-webar/models/ScarpeNere.glb'
               ios-src='https://uqido.github.io/geox-webar/models/ScarpeNere.usdz' alt='' noloop camera-orbit="180deg 90deg 100%"
               min-camera-orbit="auto auto 80%" ar-modes="webxr scene-viewer quick-look"
               camera-target="0 0 -15cm"
+              environment-image="neutral"
               exposure="1" shadow-intensity="1.5" shadow-softness="0.8" quick-look-browsers="safari chrome">
     <script src="js/LoadingBar.js"></script>
     <script src="js/ContentCustomizer.js"></script>
 </model-viewer>
-<script type="module" src="js/model-viewer/dist/uqido-model-viewer.min.js"></script>
-<script nomodule src="js/model-viewer/dist/uqido-model-viewer-legacy.js"></script>
+<script type="module" src="js/model-viewer/dist/model-viewer.min.js"></script>
 </body>
 </html>
